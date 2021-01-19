@@ -1,10 +1,10 @@
 const authConfig = {
-  "siteName": "Google Drive Index", 
+  "siteName": "Ekal Server", 
   "siteIcon": "https://raw.githubusercontent.com/sawankumar/Google-Drive-Index-III/master/images/favicon.png",
   "version": "4.28",
   "client_id": "202264815644.apps.googleusercontent.com",
   "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
-  "refresh_token": "", // Authorization token
+  "refresh_token": "1//0geGTkos6SmgXCgYIARAAGBASNwF-L9IrGatPsi8ct_xc0Lrw2NT4viHQgyf9oSZ1-Vb2nlhlMSuQs90qaqU-FGvRRYndLzjA_4k", // Authorization token
 /**
  * Set up multiple Drives to be displayed; add multiples by format
  * [id]: It can be team folder id, subfolder id, or "root" (representing the root directory of personal disk);
@@ -20,8 +20,8 @@ const authConfig = {
  **/
   "roots": [
     {
-      id: "root", //you can use folderid other than root but then search wont work
-      name: "Personal Drive",
+      id: "my-drive", //you can use folderid other than root but then search wont work
+      name: "Home",
     },
     {
         id: "drive_id",
